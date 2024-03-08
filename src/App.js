@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // let massage = "Bye there!";
+  // if (Math.random() > 0.5) {
+  //   massage = "hello there";
+  // }
+  // return <h1>{massage}</h1>;
+
+  return <input style={{ border: "3px solid red" }} type="number" min={5} />;
 }
 
 export default App;
