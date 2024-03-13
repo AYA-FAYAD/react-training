@@ -1,0 +1,11 @@
+.image_show {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-gap: 1px;
+}
+
+.image_show img {
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}

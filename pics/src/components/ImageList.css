@@ -1,0 +1,13 @@
+.image_list {
+  columns: 5 200px;
+  column-gap: 3px;
+}
+
+/* .img {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: auto;
+  width: 100%;
+  margin-bottom: 10px;
+} */
