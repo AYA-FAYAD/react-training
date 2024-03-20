@@ -2,10 +2,14 @@ import { Gi3DGlasses, GiAbstract014, GiCrescentStaff } from "react-icons/gi";
 import Button from "./Button";
 
 function App() {
+  const handlClick = () => {
+    console.log("click");
+  };
+
   return (
     <div>
       <div>
-        <Button success outline>
+        <Button success outline className="mb-5">
           <Gi3DGlasses />
           CLick me{" "}
         </Button>

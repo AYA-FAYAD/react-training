@@ -1,10 +1,10 @@
-import { ReactNode } from "react";
+import { ReactNode, ButtonHTMLAttributes } from "react";
 import classNames from "classnames";
 import { twMerge } from "tailwind-merge";
 
 //In TypeScript, an interface is a way to define a contract for an object's structure.
 //  It allows you to specify the shape of an object including its properties and their type
-interface ButtonProps {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   primary?: boolean;
   secondary?: boolean;
@@ -24,6 +24,7 @@ function Button({
   danger,
   outline,
   rounded,
+  ...rest
 }: ButtonProps) {
   // Custom validation logic
   const checkVariationValue = () => {
@@ -42,7 +43,7 @@ function Button({
   // Call custom validation logic
   checkVariationValue();
   const classes = twMerge(
-    classNames("flex items-center px-3 py-1.5  border", {
+    classNames(rest.className, "flex items-center px-3 py-1.5  border", {
       "border-blue-700 bg-blue-600 text-white": primary,
       "border-gray-700 bg-gray-600 text-white": secondary,
       "border-red-700 bg-red-600 text-white": danger,
@@ -59,7 +60,9 @@ function Button({
   );
   return (
     <div>
-      <button className={classes}>{children}</button>
+      <button {...rest} className={classes}>
+        {children}
+      </button>
     </div>
   );
 }
