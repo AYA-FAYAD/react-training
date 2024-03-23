@@ -1,41 +1,27 @@
-import { Gi3DGlasses, GiAbstract014, GiCrescentStaff } from "react-icons/gi";
-import Button from "./Button";
+import Accordion from "./components/Accordion";
 
 function App() {
-  const handlClick = () => {
-    console.log("click");
-  };
+  const items = [
+    {
+      id: "dd12332",
+      label: "hi can you help me",
+      content: "yes what can i help you",
+    },
+    {
+      id: "gegg123",
+      label: "did you forget me",
+      content: "yes what can i help you",
+    },
+    {
+      id: "fsff2",
+      label: "thank you",
+      content: "yes what can i help you",
+    },
+  ];
 
   return (
     <div>
-      <div>
-        <Button success outline className="mb-5">
-          <Gi3DGlasses />
-          CLick me{" "}
-        </Button>
-      </div>
-      <div>
-        <Button danger rounded>
-          <GiAbstract014 />
-          Hi there
-        </Button>
-      </div>
-      <div>
-        <Button primary outline>
-          Good bye
-        </Button>
-      </div>
-      <div>
-        <Button warning rounded>
-          <GiCrescentStaff />
-          Fuck{" "}
-        </Button>
-      </div>
-      <div>
-        <Button danger outline>
-          You
-        </Button>
-      </div>
+      <Accordion items={items} />
     </div>
   );
 }
