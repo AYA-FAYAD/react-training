@@ -7,6 +7,11 @@ function SortableTable(props: any) {
   const { config, data } = props;
 
   const handlelick = (label: any) => {
+    if (sortBy && label !== sortBy) {
+      setSortOrder("asc");
+      setSorBy(label);
+      return;
+    }
     if (sortOrder === null) {
       setSortOrder("asc");
       setSorBy(label);
@@ -57,12 +62,7 @@ function SortableTable(props: any) {
     });
   }
 
-  return (
-    <div>
-      {sortBy} -{sortOrder}
-      <Table {...props} data={sortedData} config={updatedCongig} />
-    </div>
-  );
+  return <Table {...props} data={sortedData} config={updatedCongig} />;
 }
 
 function getIcon(label: any, sortBy: any, sortOrder: any) {
