@@ -6,10 +6,11 @@ import CarValue from "./componenets/carValue";
 function App() {
   return (
     <div>
-      <div>
+      <div className="container is-fluid">
         <CarForm />
-        <CarList />
         <CarSearch />
+        <CarList />
+
         <CarValue />
       </div>
     </div>
