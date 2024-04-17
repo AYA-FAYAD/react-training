@@ -1,5 +1,30 @@
 {
-  "user": [],
+  "users": [
+    {
+      "id": "1",
+      "name": "aya"
+    },
+    {
+      "id": "d101",
+      "name": "Simon Rempel"
+    },
+    {
+      "id": "dcbd",
+      "name": "Bridget Stokes"
+    },
+    {
+      "id": "3c0b",
+      "name": "Ashley Nolan"
+    },
+    {
+      "id": "47a5",
+      "name": "Eugene Bailey"
+    },
+    {
+      "id": "4f02",
+      "name": "Clifford Witting"
+    }
+  ],
   "albums": [],
   "photos": []
 }
