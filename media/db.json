@@ -2,29 +2,62 @@
   "users": [
     {
       "id": "1",
-      "name": "aya"
+      "name": "Aya"
     },
     {
-      "id": "d101",
-      "name": "Simon Rempel"
+      "id": "3ad1",
+      "name": "Nicolas Cronin"
     },
     {
-      "id": "dcbd",
-      "name": "Bridget Stokes"
+      "id": "ea1a",
+      "name": "Mr. Domingo Schimmel"
     },
     {
-      "id": "3c0b",
-      "name": "Ashley Nolan"
-    },
-    {
-      "id": "47a5",
-      "name": "Eugene Bailey"
-    },
-    {
-      "id": "4f02",
-      "name": "Clifford Witting"
+      "id": "bb6f",
+      "name": "Leticia Johnston"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "anne with e",
+      "userId": "1"
+    },
+    {
+      "id": "15e4",
+      "userId": "1",
+      "title": "Recycled Granite Bike"
+    },
+    {
+      "id": "7c90",
+      "userId": "1",
+      "title": "Ergonomic Concrete Car"
+    },
+    {
+      "id": "033f",
+      "userId": "1",
+      "title": "Fantastic Fresh Bike"
+    },
+    {
+      "id": "300b",
+      "userId": "1",
+      "title": "Recycled Rubber Shirt"
+    },
+    {
+      "id": "8598",
+      "userId": "1",
+      "title": "Intelligent Frozen Shoes"
+    },
+    {
+      "id": "f18b",
+      "userId": "ea1a",
+      "title": "Elegant Rubber Car"
+    },
+    {
+      "id": "b773",
+      "userId": "bb6f",
+      "title": "Handmade Steel Gloves"
+    }
+  ],
   "photos": []
 }
