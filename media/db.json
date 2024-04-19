@@ -1,63 +1,72 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Aya"
+      "id": "ea0c",
+      "name": "Monica Jacobs II"
     },
     {
-      "id": "3ad1",
-      "name": "Nicolas Cronin"
-    },
-    {
-      "id": "ea1a",
-      "name": "Mr. Domingo Schimmel"
-    },
-    {
-      "id": "bb6f",
-      "name": "Leticia Johnston"
+      "id": "fb2f",
+      "name": "Candice Parker"
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "anne with e",
-      "userId": "1"
+      "id": "6337",
+      "userId": null,
+      "title": "Intelligent Plastic Car"
     },
     {
-      "id": "15e4",
-      "userId": "1",
-      "title": "Recycled Granite Bike"
+      "id": "48b5",
+      "userId": "ea0c",
+      "title": "Intelligent Plastic Fish"
     },
     {
-      "id": "7c90",
-      "userId": "1",
-      "title": "Ergonomic Concrete Car"
-    },
-    {
-      "id": "033f",
-      "userId": "1",
-      "title": "Fantastic Fresh Bike"
-    },
-    {
-      "id": "300b",
-      "userId": "1",
-      "title": "Recycled Rubber Shirt"
-    },
-    {
-      "id": "8598",
-      "userId": "1",
-      "title": "Intelligent Frozen Shoes"
-    },
-    {
-      "id": "f18b",
-      "userId": "ea1a",
-      "title": "Elegant Rubber Car"
-    },
-    {
-      "id": "b773",
-      "userId": "bb6f",
-      "title": "Handmade Steel Gloves"
+      "id": "83c1",
+      "userId": "fb2f",
+      "title": "Refined Soft Bike"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "46ae",
+      "albumId": {
+        "id": "48b5",
+        "userId": "ea0c",
+        "title": "Intelligent Plastic Fish"
+      },
+      "url": "https://loremflickr.com/150/150/abstract?lock=6818"
+    },
+    {
+      "id": "5f71",
+      "albumId": {
+        "id": "48b5",
+        "userId": "ea0c",
+        "title": "Intelligent Plastic Fish"
+      },
+      "url": "https://loremflickr.com/150/150/abstract?lock=3081"
+    },
+    {
+      "id": "b528",
+      "albumId": {
+        "id": "48b5",
+        "userId": "ea0c",
+        "title": "Intelligent Plastic Fish"
+      },
+      "url": "https://loremflickr.com/150/150/abstract?lock=62721"
+    },
+    {
+      "id": "3fe6",
+      "albumId": {
+        "id": "48b5",
+        "userId": "ea0c",
+        "title": "Intelligent Plastic Fish"
+      },
+      "url": "https://loremflickr.com/150/150/abstract?lock=7173"
+    },
+    {
+      "id": "ace9",
+      "albumId": "48b5",
+      "url": "https://loremflickr.com/150/150/abstract?lock=16380"
+    }
+  ]
 }
